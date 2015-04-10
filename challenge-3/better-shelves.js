@@ -1,22 +1,3 @@
-// function Book(author, title, category, status, callNumber){
-//   this.author = author;
-//   this.title = title;
-//   this.category = category;
-//   this.status = status;
-//   this.callNumber = callNumber;
-//   this.checkThisOut = function() {
-//     this.status = "loaned";
-//     console.log(this.title + " " + this.status);
-//     bookStatus(books);
-//   };
-//   this.checkThisIn = function() {
-//     this.status = "shelved";
-//     console.log(this.title + " " + this.status);
-//     bookStatus(books);
-//   };
-// }
-
-// var cha1 = new Book('Chabon, Michael', '"The Amazing Adventures of Kavalier & Clay"', 'fiction', 'loaned', 'cha1');
 
 function shelf(books) {
   fictionBooks = [];
